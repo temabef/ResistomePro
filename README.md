@@ -12,7 +12,7 @@ This application allows users to:
 
 ## Live Demo
 
-[View the live demo here](https://temabef.github.io/resistomepro) 
+[[View the live demo here]](https://temabef.github.io/ResistomePro/)
 
 ## Features
 
