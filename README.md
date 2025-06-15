@@ -12,9 +12,7 @@ This application allows users to:
 
 ## Live Demo
 
-[View the live demo here](https://temabef.github.io/resistomepro) *(Replace with your actual deployment URL)*
-
-![ResistomePro Screenshot](screenshot.png) *(Add a screenshot once deployed)*
+[View the live demo here](https://temabef.github.io/resistomepro) 
 
 ## Features
 
