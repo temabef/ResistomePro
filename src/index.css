@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  color: #355f8a;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global link styles */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Basic container padding to ensure content isn't flush with edges on small screens */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Fix navbar on small screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #0d6efd;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+}

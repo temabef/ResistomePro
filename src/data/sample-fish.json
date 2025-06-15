@@ -1,0 +1,130 @@
+{
+  "fish": [
+    {
+      "id": "F001",
+      "name": "Trout-01",
+      "sex": "Female",
+      "age": 24,
+      "origin": "Wild",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "AA" },
+        { "markerId": "SNP2", "genotype": "CT" },
+        { "markerId": "SNP3", "genotype": "GA" },
+        { "markerId": "SNP4", "genotype": "TT" },
+        { "markerId": "SNP5", "genotype": "AT" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.75,
+        "viralHemorrhagic": 0.45,
+        "ipnVirus": 0.60,
+        "entericRedmouth": 0.85,
+        "columnaris": 0.50
+      }
+    },
+    {
+      "id": "F002",
+      "name": "Trout-02",
+      "sex": "Female",
+      "age": 30,
+      "origin": "Domesticated",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "AG" },
+        { "markerId": "SNP2", "genotype": "CC" },
+        { "markerId": "SNP3", "genotype": "GG" },
+        { "markerId": "SNP4", "genotype": "TC" },
+        { "markerId": "SNP5", "genotype": "AA" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.55,
+        "viralHemorrhagic": 0.80,
+        "ipnVirus": 0.90,
+        "entericRedmouth": 0.60,
+        "columnaris": 0.70
+      }
+    },
+    {
+      "id": "F003",
+      "name": "Trout-03",
+      "sex": "Female",
+      "age": 18,
+      "origin": "Wild",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "GG" },
+        { "markerId": "SNP2", "genotype": "TT" },
+        { "markerId": "SNP3", "genotype": "AA" },
+        { "markerId": "SNP4", "genotype": "CC" },
+        { "markerId": "SNP5", "genotype": "TT" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.40,
+        "viralHemorrhagic": 0.65,
+        "ipnVirus": 0.75,
+        "entericRedmouth": 0.50,
+        "columnaris": 0.80
+      }
+    },
+    {
+      "id": "M001",
+      "name": "Trout-04",
+      "sex": "Male",
+      "age": 36,
+      "origin": "Domesticated",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "AA" },
+        { "markerId": "SNP2", "genotype": "CT" },
+        { "markerId": "SNP3", "genotype": "GG" },
+        { "markerId": "SNP4", "genotype": "TC" },
+        { "markerId": "SNP5", "genotype": "AT" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.85,
+        "viralHemorrhagic": 0.60,
+        "ipnVirus": 0.70,
+        "entericRedmouth": 0.45,
+        "columnaris": 0.55
+      }
+    },
+    {
+      "id": "M002",
+      "name": "Trout-05",
+      "sex": "Male",
+      "age": 20,
+      "origin": "Wild",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "AG" },
+        { "markerId": "SNP2", "genotype": "TT" },
+        { "markerId": "SNP3", "genotype": "GA" },
+        { "markerId": "SNP4", "genotype": "CC" },
+        { "markerId": "SNP5", "genotype": "AA" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.60,
+        "viralHemorrhagic": 0.70,
+        "ipnVirus": 0.55,
+        "entericRedmouth": 0.75,
+        "columnaris": 0.65
+      }
+    },
+    {
+      "id": "M003",
+      "name": "Trout-06",
+      "sex": "Male",
+      "age": 28,
+      "origin": "Domesticated",
+      "genotypes": [
+        { "markerId": "SNP1", "genotype": "GG" },
+        { "markerId": "SNP2", "genotype": "CC" },
+        { "markerId": "SNP3", "genotype": "AA" },
+        { "markerId": "SNP4", "genotype": "TT" },
+        { "markerId": "SNP5", "genotype": "TT" }
+      ],
+      "resistanceScores": {
+        "bacterialColdWater": 0.50,
+        "viralHemorrhagic": 0.85,
+        "ipnVirus": 0.80,
+        "entericRedmouth": 0.65,
+        "columnaris": 0.90
+      }
+    }
+  ]
+} 

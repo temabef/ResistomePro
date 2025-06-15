@@ -1,0 +1,64 @@
+{
+  "markers": [
+    {
+      "id": "SNP1",
+      "name": "ERAP1_SNP123",
+      "chromosome": "Ch1",
+      "position": 123456,
+      "referenceAllele": "A",
+      "alternateAllele": "G",
+      "traitAssociation": "Bacterial Cold Water Disease Resistance",
+      "effectSize": 0.25,
+      "source": "Vallejo et al. (2019)",
+      "description": "Associated with increased immune response against Flavobacterium psychrophilum"
+    },
+    {
+      "id": "SNP2",
+      "name": "TLR3_SNP456",
+      "chromosome": "Ch5",
+      "position": 789012,
+      "referenceAllele": "C",
+      "alternateAllele": "T",
+      "traitAssociation": "Viral Hemorrhagic Septicemia Resistance",
+      "effectSize": 0.18,
+      "source": "Palti et al. (2015)",
+      "description": "Linked to toll-like receptor signaling pathway affecting viral recognition"
+    },
+    {
+      "id": "SNP3",
+      "name": "MHC_SNP789",
+      "chromosome": "Ch10",
+      "position": 345678,
+      "referenceAllele": "G",
+      "alternateAllele": "A",
+      "traitAssociation": "IPN Virus Resistance",
+      "effectSize": 0.35,
+      "source": "Leeds et al. (2010)",
+      "description": "Major histocompatibility complex variant associated with strong antiviral response"
+    },
+    {
+      "id": "SNP4",
+      "name": "IL1B_SNP246",
+      "chromosome": "Ch8",
+      "position": 901234,
+      "referenceAllele": "T",
+      "alternateAllele": "C",
+      "traitAssociation": "Enteric Redmouth Disease Resistance",
+      "effectSize": 0.15,
+      "source": "Vallejo et al. (2019)",
+      "description": "Interleukin gene variant affecting inflammatory response to bacterial infection"
+    },
+    {
+      "id": "SNP5",
+      "name": "MMP9_SNP357",
+      "chromosome": "Ch3",
+      "position": 567890,
+      "referenceAllele": "A",
+      "alternateAllele": "T",
+      "traitAssociation": "Columnaris Disease Resistance",
+      "effectSize": 0.22,
+      "source": "Palti et al. (2015)",
+      "description": "Matrix metalloproteinase variant affecting tissue remodeling during infection"
+    }
+  ]
+} 

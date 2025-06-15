@@ -1,0 +1,134 @@
+{
+  "parameters": [
+    {
+      "id": "temp",
+      "name": "Water Temperature",
+      "unit": "°C",
+      "optimalRange": {
+        "min": 10,
+        "max": 16
+      },
+      "criticalThresholds": {
+        "min": 4,
+        "max": 22
+      },
+      "diseaseCorrelations": [
+        {
+          "disease": "Bacterial Cold Water Disease",
+          "riskFactor": "High risk below 10°C",
+          "description": "Flavobacterium psychrophilum thrives in cold water conditions"
+        },
+        {
+          "disease": "Columnaris Disease",
+          "riskFactor": "High risk above 18°C",
+          "description": "Flavobacterium columnare becomes more virulent at higher temperatures"
+        },
+        {
+          "disease": "Enteric Redmouth",
+          "riskFactor": "Moderate risk between 10-20°C",
+          "description": "Yersinia ruckeri more active in mid-range temperatures"
+        }
+      ]
+    },
+    {
+      "id": "do",
+      "name": "Dissolved Oxygen",
+      "unit": "mg/L",
+      "optimalRange": {
+        "min": 7,
+        "max": 12
+      },
+      "criticalThresholds": {
+        "min": 5,
+        "max": 20
+      },
+      "diseaseCorrelations": [
+        {
+          "disease": "General Susceptibility",
+          "riskFactor": "High risk below 5mg/L",
+          "description": "Low oxygen levels cause stress and reduced immune function"
+        },
+        {
+          "disease": "Saprolegniasis (Fungal infection)",
+          "riskFactor": "Increased risk below 6mg/L",
+          "description": "Opportunistic fungal pathogens exploit stressed fish"
+        }
+      ]
+    },
+    {
+      "id": "ph",
+      "name": "pH",
+      "unit": "",
+      "optimalRange": {
+        "min": 6.5,
+        "max": 8.0
+      },
+      "criticalThresholds": {
+        "min": 5.5,
+        "max": 9.0
+      },
+      "diseaseCorrelations": [
+        {
+          "disease": "Gill Disease",
+          "riskFactor": "High risk below 6.0 or above 8.5",
+          "description": "Extreme pH affects gill function and increases susceptibility to pathogens"
+        },
+        {
+          "disease": "Bacterial Infections",
+          "riskFactor": "Varied impact",
+          "description": "pH affects the activity of different bacterial pathogens differently"
+        }
+      ]
+    },
+    {
+      "id": "ammonia",
+      "name": "Ammonia",
+      "unit": "mg/L",
+      "optimalRange": {
+        "min": 0,
+        "max": 0.02
+      },
+      "criticalThresholds": {
+        "min": 0,
+        "max": 0.05
+      },
+      "diseaseCorrelations": [
+        {
+          "disease": "Gill Hyperplasia",
+          "riskFactor": "High risk above 0.02mg/L",
+          "description": "Ammonia damages gill tissue increasing susceptibility to pathogens"
+        },
+        {
+          "disease": "Bacterial Infections",
+          "riskFactor": "Increased risk above 0.03mg/L",
+          "description": "Compromised immune system due to ammonia toxicity"
+        }
+      ]
+    },
+    {
+      "id": "nitrite",
+      "name": "Nitrite",
+      "unit": "mg/L",
+      "optimalRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "criticalThresholds": {
+        "min": 0,
+        "max": 0.5
+      },
+      "diseaseCorrelations": [
+        {
+          "disease": "Brown Blood Disease",
+          "riskFactor": "High risk above 0.2mg/L",
+          "description": "Nitrite converts hemoglobin to methemoglobin reducing oxygen transport"
+        },
+        {
+          "disease": "General Susceptibility",
+          "riskFactor": "Increased risk above 0.15mg/L",
+          "description": "Reduced oxygen transport capability increases disease susceptibility"
+        }
+      ]
+    }
+  ]
+} 
