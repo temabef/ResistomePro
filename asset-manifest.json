@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ResistomePro/static/css/main.972b2dd9.css",
+    "main.js": "/ResistomePro/static/js/main.f1101781.js",
+    "static/js/453.c6061869.chunk.js": "/ResistomePro/static/js/453.c6061869.chunk.js",
+    "index.html": "/ResistomePro/index.html",
+    "main.972b2dd9.css.map": "/ResistomePro/static/css/main.972b2dd9.css.map",
+    "main.f1101781.js.map": "/ResistomePro/static/js/main.f1101781.js.map",
+    "453.c6061869.chunk.js.map": "/ResistomePro/static/js/453.c6061869.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.972b2dd9.css",
+    "static/js/main.f1101781.js"
+  ]
+}
