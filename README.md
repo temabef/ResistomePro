@@ -50,7 +50,7 @@ This application allows users to:
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/resistomepro.git
+git clone https://github.com/temabef/resistomepro.git
 cd resistomepro
 ```
 
